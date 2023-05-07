@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-nic",
-  "version": "0.38.7",
+  "version": "0.38.8",
   "license": "MIT",
   "homepage": "https://github.com/NicCravereslint-config",
   "main": "./dist/index.cjs",

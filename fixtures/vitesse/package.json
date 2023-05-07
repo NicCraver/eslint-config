@@ -1,6 +1,6 @@
 {
   "type": "module",
-  "private": false,
+  "private": true,
   "packageManager": "pnpm@8.3.0",
   "scripts": {
     "build": "vite-ssg build",
@@ -16,7 +16,7 @@
   },
   "dependencies": {
     "@unocss/reset": "^0.51.4",
-    "@vueuse/core": "^10.0.2",
+    "@vueuse/core": "^10.1.2",
     "@vueuse/head": "^1.1.26",
     "nprogress": "^0.2.0",
     "pinia": "^2.0.34",
@@ -26,9 +26,9 @@
     "vue-router": "^4.1.6"
   },
   "devDependencies": {
-    "@nic/eslint-config": "^0.38.4",
     "@iconify-json/carbon": "^1.1.16",
     "@intlify/vite-plugin-vue-i18n": "^7.0.0",
+    "@nic/eslint-config": "^0.38.4",
     "@types/markdown-it-link-attributes": "^3.0.1",
     "@types/nprogress": "^0.2.0",
     "@vitejs/plugin-vue": "^4.1.0",

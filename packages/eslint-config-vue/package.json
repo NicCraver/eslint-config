@@ -1,0 +1,26 @@
+{
+  "name": "@nic/eslint-config-vue",
+  "version": "0.38.7",
+  "description": "",
+  "author": "NicCraver (https://github.com/NicCraver)",
+  "license": "MIT",
+  "keywords": [
+    "eslint-config"
+  ],
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "peerDependencies": {
+    "eslint": ">=7.4.0"
+  },
+  "dependencies": {
+    "@nic/eslint-config-basic": "workspace:*",
+    "@nic/eslint-config-ts": "workspace:*",
+    "eslint-plugin-vue": "^9.11.0",
+    "local-pkg": "^0.4.3"
+  },
+  "devDependencies": {
+    "eslint": "^8.38.0"
+  }
+}

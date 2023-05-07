@@ -145,7 +145,7 @@ importers:
 
   packages/eslint-config-ts:
     dependencies:
-      'niccravereslint-config-basic':
+      '@niccraver/eslint-config-basic':
         specifier: workspace:*
         version: link:../eslint-config-basic
       '@typescript-eslint/eslint-plugin':
@@ -167,7 +167,7 @@ importers:
 
   packages/eslint-config-vue:
     dependencies:
-      'niccravereslint-config-basic':
+      '@niccraver/eslint-config-basic':
         specifier: workspace:*
         version: link:../eslint-config-basic
       'niccravereslint-config-ts':

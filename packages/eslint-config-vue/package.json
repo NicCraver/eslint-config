@@ -15,7 +15,7 @@
     "eslint": ">=7.4.0"
   },
   "dependencies": {
-    "niccravereslint-config-basic": "workspace:*",
+    "@niccraver/eslint-config-basic": "workspace:*",
     "niccravereslint-config-ts": "workspace:*",
     "eslint-plugin-vue": "^9.11.0",
     "local-pkg": "^0.4.3"

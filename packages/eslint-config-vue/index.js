@@ -26,7 +26,7 @@ module.exports = {
     'plugin:vue/vue3-recommended',
     TS
       ? 'niccravereslint-config-ts'
-      : 'niccravereslint-config-basic',
+      : '@niccraver/eslint-config-basic',
   ],
   rules: {
     'vue/max-attributes-per-line': 'off',

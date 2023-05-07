@@ -1,6 +1,6 @@
-# @nic/eslint-config
+# niccravereslint-config
 
-[![npm](https://img.shields.io/npm/v/@nic/eslint-config?color=a1b858&label=)](https://npmjs.com/package/@nic/eslint-config)
+[![npm](https://img.shields.io/npm/v/niccravereslint-config?color=a1b858&label=)](https://npmjs.com/package/niccravereslint-config)
 
 - Single quotes, no semi
 - Auto fix for formatting (aimed to be used standalone **without** Prettier)
@@ -15,7 +15,7 @@
 ### Install
 
 ```bash
-pnpm add -D eslint @nic/eslint-config
+pnpm add -D eslint niccravereslint-config
 ```
 
 ### Config `.eslintrc`

@@ -2,7 +2,7 @@ module.exports = {
   extends: [
     'plugin:react/recommended',
     'plugin:react-hooks/recommended',
-    '@nic/eslint-config-ts',
+    'niccravereslint-config-ts',
   ],
   settings: {
     react: {

@@ -1,7 +1,7 @@
 {
   "name": "@nic/eslint-config-monorepo",
   "version": "0.38.16",
-  "private": true,
+  "private": false,
   "packageManager": "pnpm@8.3.0",
   "author": "NicCraver (https://github.com/NicCraver/)",
   "license": "MIT",

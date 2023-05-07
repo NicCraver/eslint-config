@@ -1,5 +1,5 @@
 {
-  "name": "@nic/eslint-config-monorepo",
+  "name": "@niccraver/eslint-config-monorepo",
   "version": "0.38.12",
   "private": false,
   "packageManager": "pnpm@8.3.0",

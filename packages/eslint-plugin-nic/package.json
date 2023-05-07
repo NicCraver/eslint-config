@@ -2,7 +2,7 @@
   "name": "eslint-plugin-nic",
   "version": "0.38.10",
   "license": "MIT",
-  "homepage": "https://github.com/NicCravereslint-config",
+  "homepage": "https://github.com/NicCraver/eslint-config",
   "main": "./dist/index.cjs",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",

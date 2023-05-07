@@ -1,6 +1,6 @@
 import { type UserModule } from '~/types'
 
-// https://github.com/NicCravervite-plugin-pwa#automatic-reload-when-new-content-available
+// https://github.com/NicCraver/vite-plugin-pwa#automatic-reload-when-new-content-available
 export const install: UserModule = ({ isClient, router }) => {
   if (!isClient)
     return

@@ -7,7 +7,7 @@ export const install: UserModule = ({ isClient, initialState, app }) => {
   const pinia = createPinia()
   app.use(pinia)
   // Refer to
-  // https://github.com/NicCravervite-ssg/blob/main/README.md#state-serialization
+  // https://github.com/NicCraver/vite-ssg/blob/main/README.md#state-serialization
   // for other serialization strategies.
   if (isClient)
     pinia.state.value = (initialState.pinia) || {}

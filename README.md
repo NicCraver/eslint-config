@@ -1,6 +1,6 @@
-# niccravereslint-config
+# @nic/eslint-config
 
-[![npm](https://img.shields.io/npm/v/niccravereslint-config?color=a1b858&label=)](https://npmjs.com/package/niccravereslint-config)
+[![npm](https://img.shields.io/npm/v/@nic/eslint-config?color=a1b858&label=)](https://npmjs.com/package/@nic/eslint-config)
 
 - Single quotes, no semi
 - Auto fix for formatting (aimed to be used standalone **without** Prettier)
@@ -15,7 +15,7 @@
 ### Install
 
 ```bash
-pnpm add -D eslint niccravereslint-config
+pnpm add -D eslint @nic/eslint-config
 ```
 
 ### Config `.eslintrc`
@@ -118,11 +118,11 @@ Or you can always fork this repo and make your own.
 
 ## Check Also
 
-- [nic/dotfiles](https://github.com/NicCraverdotfiles) - My dotfiles
-- [nic/vscode-settings](https://github.com/NicCravervscode-settings) - My VS Code settings
-- [nic/ts-starter](https://github.com/NicCraverts-starter) - My starter template for TypeScript library
-- [nic/vitesse](https://github.com/NicCravervitesse) - My starter template for Vue & Vite app
+- [nic/dotfiles](https://github.com/NicCraver/dotfiles) - My dotfiles
+- [nic/vscode-settings](https://github.com/NicCraver/vscode-settings) - My VS Code settings
+- [nic/ts-starter](https://github.com/NicCraver/ts-starter) - My starter template for TypeScript library
+- [nic/vitesse](https://github.com/NicCraver/vitesse) - My starter template for Vue & Vite app
 
 ## License
 
-[MIT](./LICENSE) License &copy; 2019-PRESENT [NicCraver](https://github.com/nic)
+[MIT](./LICENSE) License &copy; 2019-PRESENT [NicCraver Fu](https://github.com/NicCraver)

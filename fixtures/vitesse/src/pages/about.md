@@ -8,7 +8,7 @@ title: About
   <h3>About</h3>
 </div>
 
-[Vitesse](https://github.com/NicCravervitesse) is an opinionated [Vite](https://github.com/vitejs/vite) starter template made by [@nic](https://github.com/nic) for mocking apps swiftly. With **file-based routing**, **components auto importing**, **markdown support**, I18n, PWA and uses **UnoCSS** for styling and icons.
+[Vitesse](https://github.com/NicCraver/vitesse) is an opinionated [Vite](https://github.com/vitejs/vite) starter template made by [@nic](https://github.com/NicCraver) for mocking apps swiftly. With **file-based routing**, **components auto importing**, **markdown support**, I18n, PWA and uses **UnoCSS** for styling and icons.
 
 ```js
 // syntax highlighting example
@@ -18,4 +18,4 @@ function vitesse() {
 }
 ```
 
-Check out the [GitHub repo](https://github.com/NicCravervitesse) for more details.
+Check out the [GitHub repo](https://github.com/NicCraver/vitesse) for more details.

@@ -10,7 +10,7 @@ import 'uno.css'
 
 const routes = setupLayouts(generatedRoutes)
 
-// https://github.com/NicCravervite-ssg
+// https://github.com/NicCraver/vite-ssg
 export const createApp = ViteSSG(
   App,
   { routes, base: import.meta.env.BASE_URL },

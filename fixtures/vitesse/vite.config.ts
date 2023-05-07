@@ -35,7 +35,7 @@ export default defineConfig({
     // https://github.com/JohnCampionJr/vite-plugin-vue-layouts
     Layouts(),
 
-    // https://github.com/NicCraverunplugin-auto-import
+    // https://github.com/NicCraver/unplugin-auto-import
     AutoImport({
       imports: [
         'vue',
@@ -53,7 +53,7 @@ export default defineConfig({
       vueTemplate: true,
     }),
 
-    // https://github.com/NicCraverunplugin-vue-components
+    // https://github.com/NicCraver/unplugin-vue-components
     Components({
       // allow auto load markdown components under `./src/components/`
       extensions: ['vue', 'md'],
@@ -62,12 +62,12 @@ export default defineConfig({
       dts: 'src/components.d.ts',
     }),
 
-    // https://github.com/NicCraverunocss
+    // https://github.com/NicCraver/unocss
     // see unocss.config.ts for config
     Unocss(),
 
-    // https://github.com/NicCravervite-plugin-vue-markdown
-    // Don't need this? Try vitesse-lite: https://github.com/NicCravervitesse-lite
+    // https://github.com/NicCraver/vite-plugin-vue-markdown
+    // Don't need this? Try vitesse-lite: https://github.com/NicCraver/vitesse-lite
     Markdown({
       wrapperClasses: 'prose prose-sm m-auto text-left',
       headEnabled: true,
@@ -89,7 +89,7 @@ export default defineConfig({
       },
     }),
 
-    // https://github.com/NicCravervite-plugin-pwa
+    // https://github.com/NicCraver/vite-plugin-pwa
     VitePWA({
       registerType: 'autoUpdate',
       includeAssets: ['favicon.svg', 'safari-pinned-tab.svg'],
@@ -125,7 +125,7 @@ export default defineConfig({
       include: [path.resolve(__dirname, 'locales/**')],
     }),
 
-    // https://github.com/NicCravervite-plugin-inspect
+    // https://github.com/NicCraver/vite-plugin-inspect
     // Visit http://localhost:3333/__inspect/ to see the inspector
     Inspect(),
   ],
@@ -139,7 +139,7 @@ export default defineConfig({
     },
   },
 
-  // https://github.com/NicCravervite-ssg
+  // https://github.com/NicCraver/vite-ssg
   ssgOptions: {
     script: 'async',
     formatting: 'minify',

@@ -17,7 +17,7 @@ const { t } = useI18n()
       <div i-carbon-campsite inline-block />
     </div>
     <p>
-      <a rel="noreferrer" href="https://github.com/NicCravervitesse" target="_blank">
+      <a rel="noreferrer" href="https://github.com/NicCraver/vitesse" target="_blank">
         Vitesse
       </a>
     </p>

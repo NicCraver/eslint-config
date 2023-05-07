@@ -4,7 +4,7 @@ importers:
 
   .:
     devDependencies:
-      'niccravereslint-config':
+      '@nic/eslint-config':
         specifier: workspace:*
         version: link:packages/eslint-config
       bumpp:
@@ -25,7 +25,7 @@ importers:
 
   packages/eslint-config:
     dependencies:
-      'niccravereslint-config-vue':
+      '@nic/eslint-config-vue':
         specifier: workspace:*
         version: link:../eslint-config-vue
       '@typescript-eslint/eslint-plugin':
@@ -74,9 +74,6 @@ importers:
 
   packages/eslint-config-basic:
     dependencies:
-      eslint-plugin-nic:
-        specifier: workspace:*
-        version: link:../eslint-plugin-nic
       eslint-plugin-eslint-comments:
         specifier: ^3.2.0
         version: 3.2.0(eslint@8.38.0)
@@ -95,6 +92,9 @@ importers:
       eslint-plugin-n:
         specifier: ^15.7.0
         version: 15.7.0(eslint@8.38.0)
+      eslint-plugin-nic:
+        specifier: workspace:*
+        version: link:../eslint-plugin-nic
       eslint-plugin-no-only-tests:
         specifier: ^3.1.0
         version: 3.1.0
@@ -123,7 +123,7 @@ importers:
 
   packages/eslint-config-react:
     dependencies:
-      'niccravereslint-config-ts':
+      '@nic/eslint-config-ts':
         specifier: workspace:*
         version: link:../eslint-config-ts
       eslint-plugin-react:
@@ -145,7 +145,7 @@ importers:
 
   packages/eslint-config-ts:
     dependencies:
-      '@niccraver/eslint-config-basic':
+      '@nic/eslint-config-basic':
         specifier: workspace:*
         version: link:../eslint-config-basic
       '@typescript-eslint/eslint-plugin':
@@ -167,10 +167,10 @@ importers:
 
   packages/eslint-config-vue:
     dependencies:
-      '@niccraver/eslint-config-basic':
+      '@nic/eslint-config-basic':
         specifier: workspace:*
         version: link:../eslint-config-basic
-      'niccravereslint-config-ts':
+      '@nic/eslint-config-ts':
         specifier: workspace:*
         version: link:../eslint-config-ts
       eslint-plugin-vue:

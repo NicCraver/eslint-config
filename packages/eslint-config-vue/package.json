@@ -1,8 +1,8 @@
 {
-  "name": "niccravereslint-config-vue",
-  "version": "0.38.15",
+  "name": "@nic/eslint-config-vue",
+  "version": "0.38.7",
   "description": "",
-  "author": "NicCraver (https://github.com/NicCraver)",
+  "author": "NicCraver (https://github.com/NicCraver/)",
   "license": "MIT",
   "keywords": [
     "eslint-config"
@@ -15,8 +15,8 @@
     "eslint": ">=7.4.0"
   },
   "dependencies": {
-    "@niccraver/eslint-config-basic": "workspace:*",
-    "niccravereslint-config-ts": "workspace:*",
+    "@nic/eslint-config-basic": "workspace:*",
+    "@nic/eslint-config-ts": "workspace:*",
     "eslint-plugin-vue": "^9.11.0",
     "local-pkg": "^0.4.3"
   },

@@ -1,10 +1,10 @@
 {
-  "name": "niccravereslint-config-react",
-  "version": "0.38.15",
+  "name": "@nic/eslint-config-react",
+  "version": "0.38.7",
   "description": "",
-  "author": "NicCraver (https://github.com/NicCraver)",
+  "author": "NicCraver (https://github.com/NicCraver/)",
   "license": "MIT",
-  "homepage": "https://github.com/NicCravereslint-config",
+  "homepage": "https://github.com/NicCraver/eslint-config",
   "keywords": [
     "eslint-config"
   ],
@@ -19,7 +19,7 @@
     "eslint": ">=7.4.0"
   },
   "dependencies": {
-    "niccravereslint-config-ts": "workspace:*",
+    "@nic/eslint-config-ts": "workspace:*",
     "eslint-plugin-react": "^7.32.2",
     "eslint-plugin-react-hooks": "^4.6.0"
   },

@@ -1,10 +1,10 @@
 {
-  "name": "@niccraver/eslint-config-basic",
-  "version": "0.38.15",
+  "name": "@nic/eslint-config-basic",
+  "version": "0.38.7",
   "description": "",
-  "author": "NicCraver (https://github.com/NicCraver)",
+  "author": "NicCraver (https://github.com/NicCraver/)",
   "license": "MIT",
-  "homepage": "https://github.com/NicCravereslint-config",
+  "homepage": "https://github.com/NicCraver/eslint-config",
   "keywords": [
     "eslint-config"
   ],

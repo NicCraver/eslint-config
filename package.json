@@ -1,6 +1,6 @@
 {
   "name": "@nic/eslint-config-monorepo",
-  "version": "0.38.22",
+  "version": "0.38.23",
   "private": false,
   "packageManager": "pnpm@8.3.0",
   "author": "NicCraver (https://github.com/NicCraver)",
@@ -10,7 +10,8 @@
     "test": "pnpm -r run test",
     "build": "pnpm -r run build",
     "prepare": "pnpm -r run stub",
-    "release": "bumpp -r && pnpm -r --access public"
+    "release": "bumpp -r && pnpm -r --access public",
+    "rimraf": "pnpm -r run rimraf"
   },
   "devDependencies": {
     "@nic/eslint-config": "workspace:*",

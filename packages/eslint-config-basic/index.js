@@ -48,7 +48,7 @@ module.exports = {
   plugins: [
     "html",
     "unicorn",
-    "kirklin",
+    "nic_craver",
     "no-only-tests",
     "unused-imports",
   ],
@@ -368,9 +368,9 @@ module.exports = {
     "yml/quotes": ["error", { prefer: "double", avoidEscape: false }],
     "yml/no-empty-document": "off",
 
-    // kirklin
-    "kirklin/if-newline": "error",
-    "kirklin/import-dedupe": "error",
-    // "kirklin/prefer-inline-type-import": "error",
+    // nic_craver
+    "nic_craver/if-newline": "error",
+    "nic_craver/import-dedupe": "error",
+    // "nic_craver/prefer-inline-type-import": "error",
   },
 };

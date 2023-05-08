@@ -1,6 +1,6 @@
 {
   "extends": "@nic_craver",
   "plugins": [
-    "kirklin"
+    "nic_craver"
   ]
 }

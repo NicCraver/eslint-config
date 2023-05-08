@@ -1,14 +1,14 @@
 # @nic_craver/eslint-config 
 [![CI][ci-image]][ci-url] [![npm][npm-image]][npm-url] [![downloads][downloads-image]][downloads-url] [![javascript_code style][code-style-image]][code-style-url]
 
-[ci-image]: https://github.com/kirklin/eslint-config/actions/workflows/release.yml/badge.svg?branch=master
-[ci-url]: https://github.com/kirklin/eslint-config/actions/workflows/release.yml
+[ci-image]: https://github.com/nic_craver/eslint-config/actions/workflows/release.yml/badge.svg?branch=master
+[ci-url]: https://github.com/nic_craver/eslint-config/actions/workflows/release.yml
 [npm-image]: https://img.shields.io/npm/v/@nic_craver/eslint-config.svg
 [npm-url]: https://npmjs.org/package/@nic_craver/eslint-config
 [downloads-image]: https://img.shields.io/npm/dm/@nic_craver/eslint-config.svg
 [downloads-url]: https://npmjs.org/package/@nic_craver/eslint-config
-[code-style-image]: https://img.shields.io/badge/code__style-%40kirklin-brightgreen.svg
-[code-style-url]: https://github.com/kirklin/eslint-config/
+[code-style-image]: https://img.shields.io/badge/code__style-%40nic_craver-brightgreen.svg
+[code-style-url]: https://github.com/nic_craver/eslint-config/
 
 <div align='left'>
 <a href="README.md">English</a> | <b>简体中文</b>
@@ -94,19 +94,19 @@ pnpm add -D eslint @nic_craver/eslint-config
 ```
 ### TypeScript Aware Rules
 
-当在项目根目录中找到`tsconfig.eslint.json`时，将启用Type Aware Rules, [参阅此处](https://github.com/kirklin/eslint-config/blob/master/packages/typescript/index.js#L17).
+当在项目根目录中找到`tsconfig.eslint.json`时，将启用Type Aware Rules, [参阅此处](https://github.com/nic_craver/eslint-config/blob/master/packages/typescript/index.js#L17).
 
 ## 徽章
 在你的README中包括一个这样的徽章，以便让人们知道你的代码使用的是哪种ESLint样式。
 
-[![kirklin-code-style-image](https://img.shields.io/badge/code__style-%40kirklin%2Feslint--config-brightgreen)](https://github.com/kirklin/eslint-config/)
+[![nic_craver-code-style-image](https://img.shields.io/badge/code__style-%40nic_craver%2Feslint--config-brightgreen)](https://github.com/nic_craver/eslint-config/)
 
 ```markdown
-[![kirklin-code-style-image](https://img.shields.io/badge/code__style-%40kirklin%2Feslint--config-brightgreen)](https://github.com/kirklin/eslint-config/)
+[![nic_craver-code-style-image](https://img.shields.io/badge/code__style-%40nic_craver%2Feslint--config-brightgreen)](https://github.com/nic_craver/eslint-config/)
 ```
 
-[code-style-image]: https://img.shields.io/badge/code__style-%40kirklin%2Feslint--config-brightgreen
-[code-style-url]: https://github.com/kirklin/eslint-config/
+[code-style-image]: https://img.shields.io/badge/code__style-%40nic_craver%2Feslint--config-brightgreen
+[code-style-url]: https://github.com/nic_craver/eslint-config/
 
 ## 致谢
 本项目基于 [@antfu/eslint-config](https://github.com/antfu/eslint-config)
@@ -114,4 +114,4 @@ pnpm add -D eslint @nic_craver/eslint-config
 
 ## 开源协议
 
-[MIT](./LICENSE) License &copy; 2019-PRESENT [Kirk Lin](https://github.com/kirklin)
+[MIT](./LICENSE) License &copy; 2019-PRESENT [Kirk Lin](https://github.com/nic_craver)

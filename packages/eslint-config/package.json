@@ -1,6 +1,6 @@
 {
   "name": "@nic_craver/eslint-config",
-  "version": "0.3.8",
+  "version": "0.3.9",
   "description": "Nic Lin's ESLint config",
   "author": "Nic Lin <nic@163.com> (https://github.com)",
   "license": "MIT",

@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-thenic",
-  "version": "0.3.15",
+  "version": "0.3.16",
   "license": "MIT",
   "homepage": "https://github.com/NicCraver/eslint-config",
   "main": "./dist/index.cjs",

@@ -1,6 +1,6 @@
 {
   "name": "@thenic/eslint-config-monorepo",
-  "version": "0.3.19",
+  "version": "0.3.20",
   "private": true,
   "packageManager": "pnpm@8.3.1",
   "author": "Nic Lin <nic@163.com> (https://github.com)",

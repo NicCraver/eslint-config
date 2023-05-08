@@ -1,5 +1,5 @@
 {
-  "name": "@nic_craver/eslint-config-basic",
+  "name": "@thenic/eslint-config-basic",
   "version": "0.3.14",
   "description": "",
   "author": "Nic Lin <nic@163.com> (https://github.com)",
@@ -23,7 +23,7 @@
     "eslint-plugin-html": "^7.1.0",
     "eslint-plugin-import": "^2.27.5",
     "eslint-plugin-jsonc": "^2.7.0",
-    "eslint-plugin-nic_craver": "workspace:*",
+    "eslint-plugin-thenic": "workspace:*",
     "eslint-plugin-markdown": "^3.0.0",
     "eslint-plugin-n": "^15.7.0",
     "eslint-plugin-no-only-tests": "^3.1.0",

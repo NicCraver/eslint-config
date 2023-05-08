@@ -1,6 +1,6 @@
 {
-  "extends": "@nic_craver",
+  "extends": "@thenic",
   "plugins": [
-    "nic_craver"
+    "thenic"
   ]
 }

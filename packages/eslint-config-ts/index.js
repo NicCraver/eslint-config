@@ -1,12 +1,12 @@
 const fs = require("node:fs");
 const { join } = require("node:path");
-const basic = require("@nic_craver/eslint-config-basic");
+const basic = require("@thenic/eslint-config-basic");
 
 const tsconfig = process.env.ESLINT_TSCONFIG || "tsconfig.eslint.json";
 
 module.exports = {
   extends: [
-    "@nic_craver/eslint-config-basic",
+    "@thenic/eslint-config-basic",
     "plugin:import/typescript",
     "plugin:@typescript-eslint/recommended",
   ],
@@ -156,8 +156,8 @@ module.exports = {
     "lines-between-class-members": "off",
     "@typescript-eslint/lines-between-class-members": ["error", "always", { exceptAfterSingleLine: true }],
 
-    // nic_craver
-    "nic_craver/generic-spacing": "error",
+    // thenic
+    "thenic/generic-spacing": "error",
 
     // off
     "@typescript-eslint/consistent-indexed-object-style": "off",

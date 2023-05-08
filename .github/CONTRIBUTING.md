@@ -1,1 +1,1 @@
-Please refer to https://github.com/nic_craver/contribute
+Please refer to https://github.com/thenic/contribute

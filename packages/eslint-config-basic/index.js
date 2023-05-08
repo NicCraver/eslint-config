@@ -48,7 +48,7 @@ module.exports = {
   plugins: [
     "html",
     "unicorn",
-    "nic_craver",
+    "thenic",
     "no-only-tests",
     "unused-imports",
   ],
@@ -368,9 +368,9 @@ module.exports = {
     "yml/quotes": ["error", { prefer: "double", avoidEscape: false }],
     "yml/no-empty-document": "off",
 
-    // nic_craver
-    "nic_craver/if-newline": "error",
-    "nic_craver/import-dedupe": "error",
-    // "nic_craver/prefer-inline-type-import": "error",
+    // thenic
+    "thenic/if-newline": "error",
+    "thenic/import-dedupe": "error",
+    // "thenic/prefer-inline-type-import": "error",
   },
 };

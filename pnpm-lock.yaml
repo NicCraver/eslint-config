@@ -15,7 +15,7 @@ importers:
         version: 8.39.0
       eslint-plugin-thenic:
         specifier: workspace:*
-        version: link:packages/eslint-plugin-thenic
+        version: link:packages/eslint-plugin-nic_craver
       rimraf:
         specifier: ^5.0.0
         version: 5.0.0
@@ -92,15 +92,15 @@ importers:
       eslint-plugin-n:
         specifier: ^15.7.0
         version: 15.7.0(eslint@8.39.0)
-      eslint-plugin-thenic:
-        specifier: workspace:*
-        version: link:../eslint-plugin-thenic
       eslint-plugin-no-only-tests:
         specifier: ^3.1.0
         version: 3.1.0
       eslint-plugin-promise:
         specifier: ^6.1.1
         version: 6.1.1(eslint@8.39.0)
+      eslint-plugin-thenic:
+        specifier: workspace:*
+        version: link:../eslint-plugin-nic_craver
       eslint-plugin-unicorn:
         specifier: ^46.0.0
         version: 46.0.0(eslint@8.39.0)
@@ -184,7 +184,7 @@ importers:
         specifier: ^8.39.0
         version: 8.39.0
 
-  packages/eslint-plugin-thenic:
+  packages/eslint-plugin-nic_craver:
     dependencies:
       '@typescript-eslint/utils':
         specifier: ^5.59.1

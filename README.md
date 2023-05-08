@@ -7,7 +7,7 @@
 [npm-url]: https://npmjs.org/package/@nic_craver/eslint-config
 [downloads-image]: https://img.shields.io/npm/dm/@nic_craver/eslint-config.svg
 [downloads-url]: https://npmjs.org/package/@nic_craver/eslint-config
-[code-style-image]: https://img.shields.io/badge/code__style-@thenic/eslint--config-brightgreen
+[code-style-image]: https://img.shields.io/badge/code__style-@thenic/eslint-config-brightgreen
 [code-style-url]: https://github.com/NicCraver/eslint-config/
 
 <div align='left'>
@@ -108,13 +108,13 @@ Use this in one of your projects? Include one of these badges in your readme to
 let people know that your code is using the standard style.
 
 
-[![nic_craver-code-style-image](https://img.shields.io/badge/code__style-%40nic_craver%2Feslint--config-brightgreen)](https://github.com/NicCraver/eslint-config/)
+[![nic_craver-code-style-image](https://img.shields.io/badge/code__style-@thenic/eslint-config-brightgreen)](https://github.com/NicCraver/eslint-config/)
 
 ```markdown
-[![nic_craver-code-style-image](https://img.shields.io/badge/code__style-%40nic_craver%2Feslint--config-brightgreen)](https://github.com/NicCraver/eslint-config/)
+[![nic_craver-code-style-image](https://img.shields.io/badge/code__style-@thenic/eslint-config-brightgreen)](https://github.com/NicCraver/eslint-config/)
 ```
 
-[code-style-image]: https://img.shields.io/badge/code__style-@thenic/eslint--config-brightgreen
+[code-style-image]: https://img.shields.io/badge/code__style-@thenic/eslint-config-brightgreen
 [code-style-url]: https://github.com/NicCraver/eslint-config/
 
 ## Thanks

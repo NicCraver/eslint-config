@@ -17,7 +17,7 @@
     "@nic_craver/eslint-config": "workspace:*",
     "bumpp": "^9.1.0",
     "eslint": "^8.39.0",
-    "eslint-plugin-nic": "workspace:*",
+    "eslint-plugin-nic_craver": "workspace:*",
     "rimraf": "^5.0.0",
     "typescript": "^5.0.4"
   }

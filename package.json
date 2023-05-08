@@ -10,8 +10,7 @@
     "test": "pnpm -r run test",
     "build": "pnpm -r run build",
     "prepare": "pnpm -r run stub",
-    "release": "bumpp -r && pnpm -r --access public",
-    "rimraf": "pnpm -r run rimraf"
+    "release": "bumpp -r && pnpm -r --access public"
   },
   "devDependencies": {
     "@nic/eslint-config": "workspace:*",

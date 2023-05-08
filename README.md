@@ -1,7 +1,7 @@
 # @thenic/eslint-config
 [![CI][ci-image]][ci-url] [![npm][npm-image]][npm-url] [![downloads][downloads-image]][downloads-url] [![javascript_code style][code-style-image]][code-style-url]
 
-[ci-image]: NicCraver/eslint-config/actions/workflows/release.yml/badge.svg?branch=master
+[ci-image]: NicCraver/eslint-config/actions/workflows/release.yml/badge.svg?branch=main
 [ci-url]: NicCraver/eslint-config/actions/workflows/release.yml
 [npm-image]: https://img.shields.io/npm/v/@thenic/eslint-config.svg
 [npm-url]: https://npmjs.org/package/@thenic/eslint-config

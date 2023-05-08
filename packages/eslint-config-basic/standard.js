@@ -1,4 +1,4 @@
-// Inline from https://github.com/standard/eslint-config-standard/blob/master/.eslintrc.json
+// Inline from https://github.com/standard/eslint-config-standard/blob/main/.eslintrc.json
 // Until it upgrades
 
 module.exports = {

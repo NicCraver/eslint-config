@@ -1,4 +1,4 @@
-# @nic_craver/eslint-config
+# @thenic/eslint-config
 [![CI][ci-image]][ci-url] [![npm][npm-image]][npm-url] [![downloads][downloads-image]][downloads-url] [![javascript_code style][code-style-image]][code-style-url]
 
 [ci-image]: https://github.com/NicCraver/eslint-config/actions/workflows/release.yml/badge.svg?branch=master

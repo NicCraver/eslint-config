@@ -1,8 +1,8 @@
 {
   "name": "@nic/eslint-config",
-  "version": "0.38.24",
-  "description": "NicCraver's ESLint config",
-  "author": "NicCraver (https://github.com/NicCraver/)",
+  "version": "0.3.5",
+  "description": "Nic Lin's ESLint config",
+  "author": "Nic Lin <nic@163.com> (https://github.com)",
   "license": "MIT",
   "homepage": "https://github.com/NicCraver/eslint-config",
   "keywords": [
@@ -17,8 +17,8 @@
   },
   "dependencies": {
     "@nic/eslint-config-vue": "workspace:*",
-    "@typescript-eslint/eslint-plugin": "^5.59.0",
-    "@typescript-eslint/parser": "^5.59.0",
+    "@typescript-eslint/eslint-plugin": "^5.59.1",
+    "@typescript-eslint/parser": "^5.59.1",
     "eslint-plugin-eslint-comments": "^3.2.0",
     "eslint-plugin-html": "^7.1.0",
     "eslint-plugin-import": "^2.27.5",
@@ -32,6 +32,6 @@
     "yaml-eslint-parser": "^1.2.0"
   },
   "devDependencies": {
-    "eslint": "^8.38.0"
+    "eslint": "^8.39.0"
   }
 }

@@ -1,0 +1,6 @@
+{
+  "extends": "@nic",
+  "plugins": [
+    "kirklin"
+  ]
+}

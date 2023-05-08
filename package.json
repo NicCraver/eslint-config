@@ -1,21 +1,22 @@
 {
   "name": "@nic/eslint-config-monorepo",
-  "version": "0.38.24",
-  "private": false,
-  "packageManager": "pnpm@8.3.0",
-  "author": "NicCraver (https://github.com/NicCraver)",
+  "version": "0.3.5",
+  "private": true,
+  "packageManager": "pnpm@8.3.1",
+  "author": "Nic Lin <nic@163.com> (https://github.com)",
   "license": "MIT",
   "scripts": {
     "lint": "pnpm -r run stub && eslint .",
+    "lint:fix": "pnpm -r run stub && eslint . --fix",
     "test": "pnpm -r run test",
     "build": "pnpm -r run build",
     "prepare": "pnpm -r run stub",
-    "release": "bumpp -r && pnpm -r --access public"
+    "release": "bumpp -r && pnpm -r publish --access public"
   },
   "devDependencies": {
     "@nic/eslint-config": "workspace:*",
     "bumpp": "^9.1.0",
-    "eslint": "^8.38.0",
+    "eslint": "^8.39.0",
     "eslint-plugin-nic": "workspace:*",
     "rimraf": "^5.0.0",
     "typescript": "^5.0.4"

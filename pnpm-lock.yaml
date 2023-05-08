@@ -4,7 +4,7 @@ importers:
 
   .:
     devDependencies:
-      '@nic/eslint-config':
+      '@nic_craver/eslint-config':
         specifier: workspace:*
         version: link:packages/eslint-config
       bumpp:
@@ -25,7 +25,7 @@ importers:
 
   packages/eslint-config:
     dependencies:
-      '@nic/eslint-config-vue':
+      '@nic_craver/eslint-config-vue':
         specifier: workspace:*
         version: link:../eslint-config-vue
       '@typescript-eslint/eslint-plugin':
@@ -123,7 +123,7 @@ importers:
 
   packages/eslint-config-react:
     dependencies:
-      '@nic/eslint-config-ts':
+      '@nic_craver/eslint-config-ts':
         specifier: workspace:*
         version: link:../eslint-config-ts
       eslint-plugin-react:
@@ -145,7 +145,7 @@ importers:
 
   packages/eslint-config-ts:
     dependencies:
-      '@nic/eslint-config-basic':
+      '@nic_craver/eslint-config-basic':
         specifier: workspace:*
         version: link:../eslint-config-basic
       '@typescript-eslint/eslint-plugin':
@@ -167,10 +167,10 @@ importers:
 
   packages/eslint-config-vue:
     dependencies:
-      '@nic/eslint-config-basic':
+      '@nic_craver/eslint-config-basic':
         specifier: workspace:*
         version: link:../eslint-config-basic
-      '@nic/eslint-config-ts':
+      '@nic_craver/eslint-config-ts':
         specifier: workspace:*
         version: link:../eslint-config-ts
       eslint-plugin-vue:

@@ -1,12 +1,12 @@
-# @nic/eslint-config
+# @nic_craver/eslint-config
 [![CI][ci-image]][ci-url] [![npm][npm-image]][npm-url] [![downloads][downloads-image]][downloads-url] [![javascript_code style][code-style-image]][code-style-url]
 
 [ci-image]: https://github.com/kirklin/eslint-config/actions/workflows/release.yml/badge.svg?branch=master
 [ci-url]: https://github.com/kirklin/eslint-config/actions/workflows/release.yml
-[npm-image]: https://img.shields.io/npm/v/@nic/eslint-config.svg
-[npm-url]: https://npmjs.org/package/@nic/eslint-config
-[downloads-image]: https://img.shields.io/npm/dm/@nic/eslint-config.svg
-[downloads-url]: https://npmjs.org/package/@nic/eslint-config
+[npm-image]: https://img.shields.io/npm/v/@nic_craver/eslint-config.svg
+[npm-url]: https://npmjs.org/package/@nic_craver/eslint-config
+[downloads-image]: https://img.shields.io/npm/dm/@nic_craver/eslint-config.svg
+[downloads-url]: https://npmjs.org/package/@nic_craver/eslint-config
 [code-style-image]: https://img.shields.io/badge/code__style-%40kirklin%2Feslint--config-brightgreen
 [code-style-url]: https://github.com/kirklin/eslint-config/
 
@@ -36,13 +36,13 @@ official ESLint website.
 ### Install
 
 ```bash
-pnpm add -D eslint @nic/eslint-config
+pnpm add -D eslint @nic_craver/eslint-config
 ```
 ### add this to your `.eslintrc` file:
 
 ```json
 {
-  "extends": "@nic"
+  "extends": "@nic_craver"
 }
 ```
 
@@ -79,7 +79,7 @@ add you like rules to your `.eslintrc` file:
 ```json
 {
   "extends": [
-    "@nic"
+    "@nic_craver"
   ],
   "rules": {
     "vue/component-tags-order": ["error", {
@@ -97,7 +97,7 @@ Type aware rules are enabled when a `tsconfig.eslint.json` is found in the proje
 process.env.ESLINT_TSCONFIG = "tsconfig.json";
 
 module.exports = {
-  extends: "@nic"
+  extends: "@nic_craver"
 };
 ```
 

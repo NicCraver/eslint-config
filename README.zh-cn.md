@@ -1,12 +1,12 @@
-# @nic/eslint-config 
+# @nic_craver/eslint-config 
 [![CI][ci-image]][ci-url] [![npm][npm-image]][npm-url] [![downloads][downloads-image]][downloads-url] [![javascript_code style][code-style-image]][code-style-url]
 
 [ci-image]: https://github.com/kirklin/eslint-config/actions/workflows/release.yml/badge.svg?branch=master
 [ci-url]: https://github.com/kirklin/eslint-config/actions/workflows/release.yml
-[npm-image]: https://img.shields.io/npm/v/@nic/eslint-config.svg
-[npm-url]: https://npmjs.org/package/@nic/eslint-config
-[downloads-image]: https://img.shields.io/npm/dm/@nic/eslint-config.svg
-[downloads-url]: https://npmjs.org/package/@nic/eslint-config
+[npm-image]: https://img.shields.io/npm/v/@nic_craver/eslint-config.svg
+[npm-url]: https://npmjs.org/package/@nic_craver/eslint-config
+[downloads-image]: https://img.shields.io/npm/dm/@nic_craver/eslint-config.svg
+[downloads-url]: https://npmjs.org/package/@nic_craver/eslint-config
 [code-style-image]: https://img.shields.io/badge/code__style-%40kirklin-brightgreen.svg
 [code-style-url]: https://github.com/kirklin/eslint-config/
 
@@ -36,14 +36,14 @@
 ### 安装
 
 ```bash
-pnpm add -D eslint @nic/eslint-config
+pnpm add -D eslint @nic_craver/eslint-config
 ```
 
 ### 在你的`.eslintrc`文件中加入这个。
 
 ```json
 {
-  "extends": "@nic"
+  "extends": "@nic_craver"
 }
 ```
 
@@ -83,7 +83,7 @@ pnpm add -D eslint @nic/eslint-config
 ```json
 {
   "extends": [
-    "@nic"
+    "@nic_craver"
   ],
   "rules": {
     "vue/component-tags-order": ["error", {

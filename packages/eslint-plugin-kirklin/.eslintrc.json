@@ -1,5 +1,5 @@
 {
-  "extends": "@nic",
+  "extends": "@nic_craver",
   "plugins": [
     "kirklin"
   ]

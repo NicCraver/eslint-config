@@ -1,5 +1,5 @@
 {
-  "name": "@nic/eslint-config-react",
+  "name": "@nic_craver/eslint-config-react",
   "version": "0.3.8",
   "description": "",
   "author": "Nic Lin <nic@163.com> (https://github.com)",
@@ -19,7 +19,7 @@
     "eslint": ">=7.4.0"
   },
   "dependencies": {
-    "@nic/eslint-config-ts": "workspace:*",
+    "@nic_craver/eslint-config-ts": "workspace:*",
     "eslint-plugin-react": "^7.32.2",
     "eslint-plugin-react-hooks": "^4.6.0"
   },

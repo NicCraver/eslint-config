@@ -1,5 +1,5 @@
 {
-  "name": "@nic/eslint-config-vue",
+  "name": "@nic_craver/eslint-config-vue",
   "version": "0.3.8",
   "description": "",
   "author": "Nic Lin <nic@163.com> (https://github.com)",
@@ -15,8 +15,8 @@
     "eslint": ">=7.4.0"
   },
   "dependencies": {
-    "@nic/eslint-config-basic": "workspace:*",
-    "@nic/eslint-config-ts": "workspace:*",
+    "@nic_craver/eslint-config-basic": "workspace:*",
+    "@nic_craver/eslint-config-ts": "workspace:*",
     "eslint-plugin-vue": "^9.11.0",
     "local-pkg": "^0.4.3"
   },

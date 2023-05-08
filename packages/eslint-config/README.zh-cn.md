@@ -1,14 +1,14 @@
 # @thenic/eslint-config 
 [![CI][ci-image]][ci-url] [![npm][npm-image]][npm-url] [![downloads][downloads-image]][downloads-url] [![javascript_code style][code-style-image]][code-style-url]
 
-[ci-image]: https://github.com/thenic/eslint-config/actions/workflows/release.yml/badge.svg?branch=master
-[ci-url]: https://github.com/thenic/eslint-config/actions/workflows/release.yml
+[ci-image]: NicCraver/eslint-config/actions/workflows/release.yml/badge.svg?branch=master
+[ci-url]: NicCraver/eslint-config/actions/workflows/release.yml
 [npm-image]: https://img.shields.io/npm/v/@thenic/eslint-config.svg
 [npm-url]: https://npmjs.org/package/@thenic/eslint-config
 [downloads-image]: https://img.shields.io/npm/dm/@thenic/eslint-config.svg
 [downloads-url]: https://npmjs.org/package/@thenic/eslint-config
 [code-style-image]: https://img.shields.io/badge/code__style-%40thenic-brightgreen.svg
-[code-style-url]: https://github.com/thenic/eslint-config/
+[code-style-url]: NicCraver/eslint-config/
 
 <div align='left'>
 <a href="README.md">English</a> | <b>简体中文</b>
@@ -94,19 +94,19 @@ pnpm add -D eslint @thenic/eslint-config
 ```
 ### TypeScript Aware Rules
 
-当在项目根目录中找到`tsconfig.eslint.json`时，将启用Type Aware Rules, [参阅此处](https://github.com/thenic/eslint-config/blob/master/packages/typescript/index.js#L17).
+当在项目根目录中找到`tsconfig.eslint.json`时，将启用Type Aware Rules, [参阅此处](NicCraver/eslint-config/blob/master/packages/typescript/index.js#L17).
 
 ## 徽章
 在你的README中包括一个这样的徽章，以便让人们知道你的代码使用的是哪种ESLint样式。
 
-[![thenic-code-style-image](https://img.shields.io/badge/code__style-%40thenic%2Feslint--config-brightgreen)](https://github.com/thenic/eslint-config/)
+[![thenic-code-style-image](https://img.shields.io/badge/code__style-%40thenic%2Feslint--config-brightgreen)](NicCraver/eslint-config/)
 
 ```markdown
-[![thenic-code-style-image](https://img.shields.io/badge/code__style-%40thenic%2Feslint--config-brightgreen)](https://github.com/thenic/eslint-config/)
+[![thenic-code-style-image](https://img.shields.io/badge/code__style-%40thenic%2Feslint--config-brightgreen)](NicCraver/eslint-config/)
 ```
 
 [code-style-image]: https://img.shields.io/badge/code__style-%40thenic%2Feslint--config-brightgreen
-[code-style-url]: https://github.com/thenic/eslint-config/
+[code-style-url]: NicCraver/eslint-config/
 
 ## 致谢
 本项目基于 [@antfu/eslint-config](https://github.com/antfu/eslint-config)
@@ -114,4 +114,4 @@ pnpm add -D eslint @thenic/eslint-config
 
 ## 开源协议
 
-[MIT](./LICENSE) License &copy; 2019-PRESENT [Kirk Lin](https://github.com/thenic)
+[MIT](./LICENSE) License &copy; 2019-PRESENT [Kirk Lin](NicCraver)

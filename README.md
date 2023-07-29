@@ -36,13 +36,13 @@ official ESLint website.
 ### Install
 
 ```bash
-pnpm add -D eslint @nic_craver/eslint-config
+pnpm add -D eslint @thenic/eslint-config
 ```
 ### add this to your `.eslintrc` file:
 
 ```json
 {
-  "extends": "@nic_craver"
+  "extends": "@thenic"
 }
 ```
 
